@@ -23,28 +23,29 @@ export default function RootLayout({ children }) {
         <footer className="bg-light py-5">
   <div className="container">
     <div className="row">
-      <div className="col-md-6">
-        <h5>About Me</h5>
-        <p>002 Veerapat Suttisai</p>
-      </div>
+      {/* ... (ส่วนอื่นๆ ของ footer เหมือนเดิม) ... */}
       <div className="col-md-3">
         <h5>Links</h5>
         <ul className="list-unstyled">
-        <Link className="nav-link active" aria-current="page" href="/">Home</Link>
-          <Link className="nav-link" href="/about">About</Link>
-          <Link className="nav-link" href="/service">Service</Link>
-          <Link className="nav-link" href="/contact">Contact</Link>
+          <li>
+            <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+          </li>
+          <li>
+            <Link className="nav-link" href="/about">About</Link>
+          </li>
+          <li>
+            <Link className="nav-link" href="/service">Service</Link>
+          </li>
+          <li>
+            <Link className="nav-link" href="/contact">Contact</Link>
+          </li>
         </ul>
       </div>
-      <div className="col-md-3">
-        <h5>Follow Us</h5>
-        <a href="#" className="me-2"><i className="fab fa-facebook"></i></a>
-        <a href="#" className="me-2"><i className="fab fa-twitter"></i></a>
-        <a href="#" className="me-2"><i className="fab fa-instagram"></i></a>
-      </div>
+      {/* ... (ส่วนอื่นๆ ของ footer เหมือนเดิม) ... */}
     </div>
   </div>
 </footer>
+
 
       </body>
     </html>
